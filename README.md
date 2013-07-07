@@ -1,0 +1,4 @@
+luckynumber
+===========
+
+A simple game
