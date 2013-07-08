@@ -1,9 +1,11 @@
-geheim = 258
+from random import randint
+
+geheim = randint(1, 20)
 tipp = 0
 i = 0
 
 print ("Ein kleines Zahlenratespiel")
-print ("===========================")
+print ("================")
 
 while tipp != geheim:
 
@@ -16,4 +18,4 @@ while tipp != geheim:
         print ("Dein Vorschlag ist zu gross")
     i = i + 1
 
-print ("Sehr gut, du hast es in ", i, "Versuchen gschaft!")
+print ("Klasse, du hast es in ", i, "Versuchen gschaft, ein gutes Tier!")
